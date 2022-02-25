@@ -1,0 +1,103 @@
+/* Colors and Fonts */
+body {
+	background-color:#28AFB0;
+	color: black;
+	font-family: 'Brygada 1918', serif;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+h1 {
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	letter-spacing: 5px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: #DAC4F7;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+a:hover {
+	color: #DAC4F7;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	width: 140px;
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #28AFB0;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.btn-blue:hover {
+	background-color: #40798C;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #BBC8CA;
+}
+.list-inline i:hover {
+	color: black;
+}
+/* Design adjustment using id*/
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
